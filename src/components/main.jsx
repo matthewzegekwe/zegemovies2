@@ -113,7 +113,9 @@ const Main = () => {
     Search for movies or explore recommendations!
   </p>
 
-  <h1><a href="/register">Get started</a></h1>
+  <h1>
+  <Link to="/register">Get started</Link>
+</h1>
 </div>
 
             <div className="container">
