@@ -114,7 +114,8 @@ const Main = () => {
   </p>
 
   <h1>
-  <Link to="/register">Get started</Link>
+   <a href="/register">Get started</a>
+      
 </h1>
 </div>
 
