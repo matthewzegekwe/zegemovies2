@@ -25,7 +25,7 @@ export const AuthProvider = ({ children }) => {
       }
 
       try {
-        const res = await axios.get("/api/user/profile", {
+        const res = await axios.get("/profile", {
           headers: { Authorization: `Bearer ${token}` },
         });
         setAuth({ user: res.data, token });
